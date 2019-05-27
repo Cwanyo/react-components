@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 
 import { CardContainer } from "./card.style";
-import deepCompare from "../../utils/deep-compare";
+import { deepCompare } from "../../utils/";
 
 const Card = ({ children }) => {
   // console.log("card");
